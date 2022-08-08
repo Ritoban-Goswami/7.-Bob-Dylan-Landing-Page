@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@600&family=Lato:wght@700&family=Nunito+Sans&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #000000;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(250, 235, 215, 0.788);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: antiquewhite;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar {
+    background-color: rgba(255, 240, 220, 0.801);
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+#heroSection {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    height: 660px;
+    margin-bottom: 170px;
+    margin-top: 70px;
+}
+
+#heroSection p {
+    font-size: 140px;
+    margin-bottom: 10px;
+    color: antiquewhite;
+    margin-top: 30px;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+#heroSection h1 {
+    font-size: 290px;
+    color: antiquewhite;
+    font-family: 'Lato', sans-serif;
+}
+
+#hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    max-width: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: auto;
+}
+
+.first-line,
+.second-line {
+    border: 5px solid rgb(175, 175, 175);
+    color: rgb(175, 175, 175);
+    border-radius: 50px 0px 0px 50px;
+    width: 40%;
+    margin-bottom: 100px;
+}
+
+.second-line {
+    border-radius: 0px 5px 5px 0px;
+}
+
+#info-section {
+    margin-bottom: 140px;
+}
+
+#infoSectionTopRow {
+    display: flex;
+}
+
+#infoSectionTopRow h1,
+#gallery,
+#greatestHits,
+#videoHeading {
+    color: rgba(255, 215, 162, 0.87);
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 90px;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.info {
+    color: rgba(255, 239, 214, 0.726);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 25px;
+}
+
+.know-more-div {
+    position: relative;
+    width: 500px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.info+div>h2 {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    color: rgba(255, 215, 162, 0.87);
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+
+}
+
+.circle {
+    position: absolute;
+    background-color: rgb(114, 114, 114);
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.additional-info {
+    color: rgba(255, 239, 214, 0.726);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    margin: 55px 50px 0px;
+}
+
+#gallery {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 150px;
+}
+
+#carouselExampleCaptions {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+#carouselExampleCaptions img {
+    height: 50%;
+    border-radius: 15px;
+}
+
+.carousel-caption {
+    background-color: rgba(250, 235, 215, 0.342);
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.carousel-caption>p>a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(24, 24, 24);
+}
+
+#spotifyPlayer {
+    border-radius: 8px;
+    margin: 200px 0px 240px 160px;
+    width: 30%;
+    height: 380px;
+    transform: scale(1.2);
+}
+
+#youtubeVideo {
+    width: 990px;
+    height: 566px;
+    border-radius: 15px;
+    margin: 150px 0px;
+}
+
+#footer {
+    background-color: rgb(0, 0, 0);
+}
+
+#footerTopRow {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#footerHeader,
+#formHeader {
+    font-family: 'Lato', sans-serif;
+    color: antiquewhite;
+    font-size: 45px;
+}
+
+.footer-link a,
+label {
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+}
+
+.footer-link li {
+    padding: 10px 0px;
+}
+
+#formHeader {
+    text-align: left;
+}
+
+#reachOut {
+    font-family: 'Lato', sans-serif;
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+#ownemailId,
+#location,
+#formButton {
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+}
+
+@media screen and (max-width: 1660px) and (min-width: 920px) {
+    #heroSection p {
+        font-size: 100px;
+    }
+
+    #heroSection h1 {
+        font-size: 210px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    #heroSection {
+        display: block;
+        margin-bottom: 0;
+    }
+
+    #heroSection p {
+        font-size: 2rem;
+    }
+
+    #heroSection h1 {
+        font-size: 110px;
+    }
+
+    #hero-image img {
+        display: block;
+        max-width: 250px;
+        height: auto;
+    }
+
+    #infoSectionTopRow {
+        display: block;
+    }
+
+    .info,
+    .additional-info {
+        font-size: 4vw;
+    }
+
+    #infoSectionTopRow h1,
+    #gallery,
+    #greatestHits,
+    #videoHeading {
+        font-size: 50px;
+    }
+
+    #carouselExampleCaptions {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    #footerHeader,
+    #formHeader {
+        font-size: 35px;
+    }
+
+    #youtubeVideo {
+        width: 70%;
+        height: 40%;
+        margin: 50px 0px;
+    }
+
+    #spotifyPlayer {
+        margin-left: 50px;
+        width: 80%;
+        transform: scale(1);
+    }
+}
